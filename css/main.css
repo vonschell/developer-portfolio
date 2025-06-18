@@ -1,3 +1,14 @@
+/* === Color Variables === */
+:root {
+    --color-navy: #0b1f33;
+    --color-slate: #445e77;
+    --color-steel: #5a7f99;
+    --color-light-gray: #f4f6f8;
+    --color-text: #1a1a1a;
+    --color-accent: #3b9cd9;
+    --color-white: #ffffff;
+}
+
 /* 1. General Reset + Base Typography */
 body {
   
