@@ -1,0 +1,110 @@
+/* 1. General Reset + Base Typography */
+body {
+  
+}
+
+a {
+    
+}
+
+a:hover {
+    
+}
+
+img {
+
+}
+
+/* 2. Layout Basics */
+header,
+section,
+footer {
+ 
+}
+
+nav {
+
+}
+
+nav h1 {
+ 
+}
+
+nav ul {
+
+}
+
+nav li {
+    
+}
+
+nav a {
+
+}
+
+/* 3. Hero Section */
+#hero {
+
+}
+
+#hero h2 {
+   
+}
+
+/* 4. Sections */
+section h2 {
+
+}
+
+#about img {
+
+}
+
+/* 5. Skills */
+#skills ul {
+  
+}
+
+#skills li {
+   
+}
+
+/* 6. Projects */
+.project {
+    
+}
+
+.project img {
+    
+}
+
+.project a {
+  
+}
+
+/* 7. Contact */
+#contact ul {
+    
+}
+
+#contact li {
+    
+}
+
+/* 8. Footer */
+footer {
+    
+}
+
+/* 9. Responsive Media Queries */
+@media (max-width: 600px) {
+    
+    }
+
+    #about img {
+       
+    }
+
+    #skills ul {
+
+    }
