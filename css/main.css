@@ -38,27 +38,51 @@ img {
 header,
 section,
 footer {
- 
+ padding: 2rem;
+ max-width: 960px;
+ margin: 0 auto;
+}
+
+/* === Header and Navigation === */
+header {
+    background-color: var(--color-navy);
+    color: var(--color-white);
 }
 
 nav {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 nav h1 {
- 
+ font-size: 1.8rem;
+    margin: 0;
+    color: var(--color-white)
 }
 
 nav ul {
-
+ list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
 }
 
 nav li {
-    
+    margin: 0;
 }
 
 nav a {
+    color: var(--color-white);
+    font-weight: bold;
+    transition: color 0.2s;;
 
+}
+
+nav a:hover {
+    color: var(--color-accent);
 }
 
 /* 3. Hero Section */
