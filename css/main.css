@@ -123,24 +123,45 @@ section h2 {
 
 /* 5. Skills */
 #skills ul {
-  
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  gap: 0.75rem;
 }
 
 #skills li {
-   
+   background: var(--color-steel);
+   color: var(--color-white);
+   padding: 0.5rem 1rem;
+   border-radius: 20px;
+   font-weight: bold;
+   font-size: 0.95rem;
 }
 
 /* 6. Projects */
 .project {
-    
+    margin-bottom: 2rem ;
 }
 
 .project img {
-    
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+}
+
+.project h3 {
+    color: var(--color-slate);
+}
+
+.project p {
+    color: var(--color-text);
 }
 
 .project a {
-  
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: var(--color-accent);
+  font-weight: bold;
 }
 
 /* 7. Contact */
