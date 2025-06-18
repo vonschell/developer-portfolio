@@ -166,16 +166,26 @@ section h2 {
 
 /* 7. Contact */
 #contact ul {
-    
+    list-style: none;
+    padding: 0;
 }
 
 #contact li {
-    
+    margin-bottom: 0.5rem;
+}
+
+#contact a {
+    color: var(--color-accent);
 }
 
 /* 8. Footer */
 footer {
-    
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--color-slate);
+  border-top: 1px solid var(--color-light-gray);
+  padding-top: 1rem;
+  margin-top: 2rem;  
 }
 
 /* 9. Responsive Media Queries */
