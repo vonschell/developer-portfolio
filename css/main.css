@@ -11,36 +11,36 @@
 
 /* 1. General Reset + Base Typography */
 body {
-  font-family: "Segoe UI", sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  background-color: var(--color-white);
-  color: var(--color-text);
+    font-family: "Segoe UI", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-white);
+    color: var(--color-text);
 }
 
 a {
-  color: var(--color-accent);
-  text-decoration: none;
+    color: var(--color-accent);
+    text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 img {
     max-width: 100%;
     height: auto;
-    display: block; 
+    display: block;
 }
 
 /* 2. Layout Basics */
 header,
 section,
 footer {
- padding: 2rem;
- max-width: 960px;
- margin: 0 auto;
+    padding: 2rem;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 /* === Header and Navigation === */
@@ -57,13 +57,13 @@ nav {
 }
 
 nav h1 {
- font-size: 1.8rem;
+    font-size: 1.8rem;
     margin: 0;
-    color: var(--color-white)
+    color: var(--color-white);
 }
 
 nav ul {
- list-style: none;
+    list-style: none;
     display: flex;
     gap: 1rem;
     margin: 0;
@@ -77,8 +77,7 @@ nav li {
 nav a {
     color: var(--color-white);
     font-weight: bold;
-    transition: color 0.2s;;
-
+    transition: color 0.2s;
 }
 
 nav a:hover {
@@ -87,14 +86,14 @@ nav a:hover {
 
 /* 3. Hero Section */
 #hero {
- text-align: center;
+    text-align: center;
     padding: 4rem 2rem;
     background-color: var(--color-slate);
     color: var(--color-white);
 }
 
 #hero h2 {
-   font-size: 2.5rem;
+    font-size: 2.5rem;
     margin-bottom: 0.5rem;
 }
 
@@ -104,44 +103,44 @@ nav a:hover {
 
 /* 4. Sections */
 section h2 {
-  border-bottom: 2px solid var(--color-light-gray);
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
-  color: var(--color-slate);
+    border-bottom: 2px solid var(--color-light-gray);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-slate);
 }
 
 #about img {
- float: left;
- max-width: 200px;
- margin: 0 1rem 1rem 0;
- border-radius: 8px;
+    float: left;
+    max-width: 200px;
+    margin: 0 1rem 1rem 0;
+    border-radius: 8px;
 }
 
 #about p {
-    color: var(--color-text)
+    color: var(--color-text);
 }
 
 /* 5. Skills */
 #skills ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  gap: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    gap: 0.75rem;
 }
 
 #skills li {
-   background: var(--color-steel);
-   color: var(--color-white);
-   padding: 0.5rem 1rem;
-   border-radius: 20px;
-   font-weight: bold;
-   font-size: 0.95rem;
+    background: var(--color-steel);
+    color: var(--color-white);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.95rem;
 }
 
 /* 6. Projects */
 .project {
-    margin-bottom: 2rem ;
+    margin-bottom: 2rem;
 }
 
 .project img {
@@ -158,10 +157,10 @@ section h2 {
 }
 
 .project a {
-  display: inline-block;
-  margin-top: 0.5rem;
-  color: var(--color-accent);
-  font-weight: bold;
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: var(--color-accent);
+    font-weight: bold;
 }
 
 /* 7. Contact */
@@ -180,23 +179,28 @@ section h2 {
 
 /* 8. Footer */
 footer {
-  text-align: center;
-  font-size: 0.875rem;
-  color: var(--color-slate);
-  border-top: 1px solid var(--color-light-gray);
-  padding-top: 1rem;
-  margin-top: 2rem;  
+    text-align: center;
+    font-size: 0.875rem;
+    color: var(--color-slate);
+    border-top: 1px solid var(--color-light-gray);
+    padding-top: 1rem;
+    margin-top: 2rem;
 }
 
 /* 9. Responsive Media Queries */
 @media (max-width: 600px) {
-    
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     #about img {
-       
+        float: none;
+        margin: 0 auto 1rem auto;
+        display: block;
     }
 
     #skills ul {
-
+        flex-direction: column;
     }
+}
