@@ -11,19 +11,27 @@
 
 /* 1. General Reset + Base Typography */
 body {
-  
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-white);
+  color: var(--color-text);
 }
 
 a {
-    
+  color: var(--color-accent);
+  text-decoration: none;
 }
 
 a:hover {
-    
+  text-decoration: underline;
 }
 
 img {
-
+    max-width: 100%;
+    height: auto;
+    display: block; 
 }
 
 /* 2. Layout Basics */
