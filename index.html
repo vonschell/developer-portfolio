@@ -111,24 +111,6 @@
         </footer>
 
         <button id="scrollToTop" title="Back to Top">↑ Top</button>
-        <script>
-        // Show/hide the scroll button based on scroll position
-        window.addEventListener('scroll', () => {
-            const scrollBtn = document.getElementById('scrollToTop');
-            if (window.scrollY > 400) {
-                scrollBtn.style.display = 'block';
-            } else {
-                scrollBtn.style.display = 'none';
-            }
-        });
-
-        // Smooth scroll to top when clicked
-        document.getElementById('scrollToTop').addEventListener('click', () => {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        });
-        </script>
+        <script src="js/main.js"></script>
     </body>
     </html>
