@@ -161,38 +161,63 @@ section h2 {
     transform: translateY(-2px);
 }
 /* 7. Projects */
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /*two equal columns */
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
 .project {
-    margin-bottom: 2rem;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     background-color: var(--color-light-gray);
-    padding: 1.25rem;
-    border-radius: 8px;
+    padding: 1.5rem;
+    border-radius: 12px; /* rounded corners */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .project:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .project img {
-    border-radius: 6px;
-    margin-bottom: 0.5rem;
+    border-radius: 50%; /* circular image */
+    margin-bottom: 1rem;
+    width: 140px;
+    height: 140px;
+    object-fit: cover; /* ensures the image covers the circle */
 }
 
 .project h3 {
     color: var(--color-slate);
+    margin-bottom: 0.5rem;
 }
 
 .project p {
     color: var(--color-text);
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
 }
 
 .project a {
-    display: inline-block;
-    margin-top: 0.5rem;
-    color: var(--color-accent);
     font-weight: bold;
+    text-decoration: none;
+    border: 2px solid var(--color-accent);
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    color: var(--color-accent);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project a:hover {
+    background-color: var(--color-accent);
+    color: var(--color-white);
 }
 
 /* 8. Contact */
