@@ -249,7 +249,7 @@ section h2 {
     color: var(--color-slate);
 }
 
-.dark-paragraph p {
+.project.dark-paragraph p {
     color: var(--color-white)
 }
 
