@@ -9,6 +9,9 @@
     --color-white: #ffffff;
 }
 
+/* Import a cool font (e.g., Orbitron from Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
 /* 1. General Reset + Base Typography */
 body {
     font-family: "Segoe UI", sans-serif;
@@ -47,13 +50,21 @@ footer {
 header {
     background-color: var(--color-navy);
     color: var(--color-white);
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin: 0 0 1rem 0;
+    font-family: 'Orbitron', sans-serif;
+    color: var(--color-white);
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 nav h1 {
@@ -65,7 +76,8 @@ nav h1 {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 1.5rem;
+    flex-direction: column;
+    gap: 0.75rem;
     margin: 0;
     padding: 0;
 }
@@ -76,8 +88,10 @@ nav li {
 
 nav a {
     color: var(--color-white);
+    font-size: 1.1rem;
     font-weight: bold;
     transition: color 0.2s;
+    text-decoration: none;
 }
 
 nav a:hover {
