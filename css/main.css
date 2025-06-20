@@ -260,6 +260,7 @@ section h2 {
 .project h3 {
     color: var(--color-slate);
     margin-bottom: 0.5rem;
+    min-height: 1rem;
 }
 
 .project p {
