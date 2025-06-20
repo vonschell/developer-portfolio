@@ -275,6 +275,17 @@ section h2 {
     min-height: 1.5rem;
 }
 
+.title-box {
+    background-color: var(--color-white);
+    color: var(--color-navy);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
 .project p {
     color: var(--color-text);
     font-size: 0.95rem;
