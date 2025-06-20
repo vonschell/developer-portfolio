@@ -297,7 +297,7 @@ section h2 {
     border-radius: 20px;
     display: inline-block;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
 
@@ -309,6 +309,8 @@ section h2 {
     border-radius: 20px;
     display: inline-block;
     font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 /* Navy border for light-background cards */
