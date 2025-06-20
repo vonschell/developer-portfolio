@@ -244,6 +244,11 @@ section h2 {
     min-height: 400px; /* set minimum height to equalize card heights */
 }
 
+.white-background {
+    background-color: var(--color-white);
+    color: var(--color-slate);
+}
+
 .project:hover {
     transform: translateY(-6px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
