@@ -65,7 +65,7 @@ header h1 {
     display: inline-block;
     padding: 0.6rem 0.8rem;
     border-radius: 12px;
-    box-shadow: 0 4px 12 px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 nav {
@@ -123,11 +123,6 @@ nav a:hover {
 
 #hero p {
     font-size: 1.4rem; 
-}
-
-/* Background outside the hero section */
-body {
-    background-color: var(--color-white);
 }
 
 #hero h2 {
@@ -393,7 +388,7 @@ section h2 {
     text-align: center;
     margin-bottom: 0.5rem;
     text-shadow: 2px 2px var(--color-slate);
-    color: car(--color-white);
+    color: var(--color-white);
     position: relative;
 }
 
