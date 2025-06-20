@@ -112,10 +112,15 @@ nav a:hover {
 }
 
 #hero img {
-    width: 120px;
+    width: 180px;
     height: auto;
     display: block;
-    margin: 0 auto 1 rem auto;
+    margin: 0 auto 1.5rem auto;
+    border-radius: 12px;
+}
+
+#hero p {
+    font-size: 1.4rem; 
 }
 
 /* Background outside the hero section */
