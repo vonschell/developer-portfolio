@@ -242,10 +242,6 @@ section h2 {
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     min-height: 400px; /* set minimum height to equalize card heights */
-
-    /* Neon border effect */
-    border: 1.5px solid #00ffff;
-    box-shadow: 0 0 10px #00ffff44;
 }
 
 .project:hover {
