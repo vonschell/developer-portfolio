@@ -286,6 +286,21 @@ section h2 {
     margin-bottom: 0.5rem;
 }
 
+/* Box style for dark text on light background */
+.title-box-dark {
+    background-color: var(--color-navy);
+    color: var(--color-white);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+/* Navy border for light-background cards */
+.navy-bordered {
+    border: 2px solid var(--color-navy);
+}
+
 .project p {
     color: var(--color-text);
     font-size: 0.95rem;
