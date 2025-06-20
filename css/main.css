@@ -124,13 +124,14 @@ nav a:hover {
 .glow-highlight::after {
     content:"";
     position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 12px;
-    background: radial-gradient(circle, var(--color-accent) 6px, transparent 7px);
+    top: 110%;
+    left: 50;
+    transform: translateX(-50%);
+    width: 140%;
+    height: 20px;
+    background: radial-gradient(circle, white 6px, transparent 7px);
     background-repeat: repeat-x;
-    background-size: 18px 12px;
+    background-size: 20px 20px;
 }
 
 @keyframes glow {
