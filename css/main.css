@@ -275,6 +275,10 @@ section h2 {
     min-height: 1.5rem;
 }
 
+.project-title.title-box-dar {
+    color: var(--color-white)
+}
+
 .title-box {
     background-color: var(--color-white);
     color: var(--color-navy);
