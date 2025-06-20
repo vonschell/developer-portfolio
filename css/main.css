@@ -113,7 +113,7 @@ nav a:hover {
 
 .glow-highlight {
     color: var(--color-navy);
-    font-size: 2.2rem;
+    font-size: 2rem;
     text-align: center;
     position: relative;
     animation: glow 1.5s ease-in-out infinite alternate;
@@ -126,6 +126,16 @@ nav a:hover {
     100% {
         text-shadow: 0 0 15px #ff9900, 0 0 20px #ff6600;
     }
+}
+
+.role-highlight {
+    background-color: var(--color-white);
+    color: var(--color-navy);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.15rem 0.5rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
 }
 
 #hero p {
