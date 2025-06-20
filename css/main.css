@@ -9,8 +9,8 @@
     --color-white: #ffffff;
 }
 
-/* Import a cool font (e.g., Orbitron from Google Fonts) */
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+/* Import a cool font */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 /* 1. General Reset + Base Typography */
 body {
@@ -55,9 +55,9 @@ header {
 }
 
 header h1 {
-    font-size: 2.2rem;
+    font-size: 3rem;
     margin: 0 0 1rem 0;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Lobster', cursive;
     color: var(--color-white);
     text-align: center;
 }
