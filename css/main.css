@@ -249,10 +249,6 @@ section h2 {
     color: var(--color-slate);
 }
 
-.light-text {
-    color: var(--color-white);
-}
-
 .project:hover {
     transform: translateY(-6px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
