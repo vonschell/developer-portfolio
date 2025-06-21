@@ -372,52 +372,80 @@ section h2 {
 
 /* 8. Contact */
 .contact-container {
-    background-color: var(--color-navy);
+    background: linear-gradient(135deg, var(--color-navy), #1a2c40);
     color: var(--color-white);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    padding: 2rem 1.5rem;
+    padding: 3rem 2rem;
     margin-top: 3rem;
     width: 100%;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 .contact-heading {
     font-family: 'Fredoka One', cursive;
-    text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
     margin-bottom: 0.5rem;
-    text-shadow: 2px 2px var(--color-slate);
+    text-shadow: 3px 3px var(--color-slate);
     color: var(--color-white);
     position: relative;
 }
 
-#contact p,
-#contact ul,
-#contact li {
+.contact-subtext {
+    font-size: 1.2rem;
     text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-light-gray);
 }
 
-#contact ul {
-    padding: 0;
-    list-style: none;
-}
-
-#contact a {
-    color: var(--color-accent);
-}
-
-#contact ul {
+.contact-list {
     list-style: none;
     padding: 0;
+    margin: 0 auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    font-size: 1.1rem;
 }
 
-#contact li {
-    margin-bottom: 0.5rem;
+.contact-list li {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 1rem 1.2rem;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    transition: background-color 0.3s ease;
 }
 
-#contact a {
+.contact-list i {
+    font-size: 1.5rem;
     color: var(--color-accent);
+    min-width: 24px;
+}
+
+.contact-list a {
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
+
+.contact-container::before {
+    content: "📬";
+    font-size: 120px;
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    opacity: 0.05;
+    z-index: 0;
 }
 
 /* 9. Footer */
