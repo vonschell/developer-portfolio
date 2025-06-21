@@ -392,17 +392,6 @@ section h2 {
     position: relative;
 }
 
-/* Custom underline */
-.contact-heading::after {
-    content: "";
-    display: block;
-    margin: 0.5rem auto 0;
-    width: 60px;
-    height: 3px;
-    background-color: var(--color-white);
-    border-radius: 2px;
-}
-
 #contact p,
 #contact ul,
 #contact li {
