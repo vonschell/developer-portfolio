@@ -436,7 +436,6 @@ footer {
     text-align: center;
     font-size: 0.875rem;
     color: var(--color-slate);
-    border-top: 1px solid var(--color-light-gray);
     padding-top: 1rem;
     margin-top: 2rem;
 }
