@@ -401,6 +401,17 @@ section h2 {
     color: var(--color-light-gray);
 }
 
+.contact-content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 900px;
+   margin: 0 auto;
+   gap: 2rem;
+   padding-top: 1rem;
+   flex-wrap: wrap;
+}
+
 .contact-list {
     list-style: none;
     padding: 0;
@@ -410,6 +421,7 @@ section h2 {
     flex-direction: column;
     gap: 1.2rem;
     font-size: 1.1rem;
+    flex: 1;
 }
 
 .contact-list li {
@@ -438,14 +450,12 @@ section h2 {
     text-decoration: underline;
 }
 
-.contact-container::before {
-    content: "📬";
+.mailbox-emoji {
     font-size: 120px;
-    position: absolute;
-    bottom: -20px;
-    right: 20px;
-    opacity: 0.20;
-    z-index: 0;
+    opacity: 0.2;
+    flex: 1;
+    text-align: right;
+    padding-right: 1rem;
 }
 
 /* 9. Footer */
