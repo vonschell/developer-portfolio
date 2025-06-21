@@ -374,9 +374,9 @@ section h2 {
 .contact-container {
     background: linear-gradient(135deg, var(--color-navy), #1a2c40);
     color: var(--color-white);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    padding: 3rem 2rem;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 2rem 1rem;
     margin-top: 3rem;
     width: 100%;
     box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.2);
