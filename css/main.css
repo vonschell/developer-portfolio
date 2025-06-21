@@ -419,7 +419,7 @@ section h2 {
     display: flex;
     align-items: center;
     gap: 0.8rem;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .contact-list i {
