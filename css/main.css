@@ -478,8 +478,9 @@ nav a:hover {
 }
 
 .contact-list li {
-    background-color: rgba(255, 255, 255, 0.05);
-    padding: 0.8rem 1rem;
+    background: transparent;
+    justify-content: center;
+    padding: 0.5;
     border-radius: 12px;
     display: flex;
     align-items: center;
@@ -493,15 +494,16 @@ nav a:hover {
     font-weight: bold;
 }
 
-.contact-list a:hover {
-    text-decoration: underline;
+.contact-list:hover {
+    transform: scale(1.1);
 }
 
 .contact-icon {
-    width: 24px;
-    height: 24px;
+    width: 60px;
+    height: auto;
     vertical-align: middle;
     margin-right: 0.5rem;
+    transition: transform 0.2s ease;
 }
 
 .mailbox-emoji {
