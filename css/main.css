@@ -60,12 +60,10 @@ header h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
     font-family: 'Lobster', cursive;
-    color: var(--color-navy);
-    background-color: var(--color-white);
+    color: white;
+    background-color: transparent;
     display: inline-block;
-    padding: 0.6rem 0.8rem;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 nav {
@@ -88,7 +86,7 @@ nav li {
 }
 
 nav a {
-    color: var(--color-white);
+    color: var(--color-navy);
     font-size: 1.1rem;
     font-weight: bold;
     transition: color 0.2s;
