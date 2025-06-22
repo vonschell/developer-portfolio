@@ -494,7 +494,7 @@ nav a:hover {
     font-weight: bold;
 }
 
-.contact-list:hover {
+.contact-list a:hover  .contact-icon {
     transform: scale(1.1);
 }
 
