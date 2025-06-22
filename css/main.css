@@ -498,22 +498,6 @@ nav a:hover {
     transition: background-color 0.3s ease;
 }
 
-.contact-list li:nth-child(1) {
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.contact-list li:nth-child(2) {
-    bottom: 0;
-    left: 0;
-}
-
-.contact-list li:nth-child(3) {
-    bottom: 0;
-    right: 0;
-}
-
 .contact-list a {
     color: var(--color-accent);
     text-decoration: none;
