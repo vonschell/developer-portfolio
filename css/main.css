@@ -469,13 +469,22 @@ nav a:hover {
     list-style: none;
     padding: 0;
     margin: 0 auto;
-    max-width: 500px;
-    display: flex;
+    max-width: 400px;
+    display: grid;
+    grid-template-areas:
+    "email linkedin"
+    "github linkedin";
     flex-direction: column;
-    gap: 1.2rem;
+    gap: 2rem;
     font-size: 1.1rem;
     flex: 1;
+    justify-content: center;
+    align-items: center;
 }
+
+.contact-list li:nth-child(1) { grid-area: email; }
+.contact-list li:nth-child(2) { grid-area: linkedin; }
+.contact-list li:nth-child(3) { grid-area: github; }
 
 .contact-list li {
     background: transparent;
@@ -499,19 +508,20 @@ nav a:hover {
 }
 
 .contact-icon {
-    width: 60px;
+    width: 80px;
     height: auto;
     vertical-align: middle;
     margin-right: 0.5rem;
-    transition: transform 0.2s ease;
+    transition: transform 0.3s;
 }
 
 .mailbox-emoji {
-    font-size: 120px;
-    opacity: 0.2;
+    font-size: 100px;
+    opacity: 1;
     flex: 1;
-    text-align: right;
-    padding-right: 1rem;
+    text-align: center;
+    padding-top: 2rem;
+    flex-basis: 100%
 }
 
 /* 10. Footer */
