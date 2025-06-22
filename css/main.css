@@ -327,7 +327,7 @@ section h2 {
 
 .about-section {
     padding: 2rem;
-    background-color: var(--color-bg, #f9fafb);
+    background-color: var(--color-navy);
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
@@ -345,18 +345,17 @@ section h2 {
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     object-fit: cover;
-    border: 3px solid var(--color-navy, #0f172a);
+    border: 3px solid white;
 }
 
-/* Paragraph border box */
-.bordered-text {
-    border: 2px solid var(--color-navy);
-    border-radius: 12px;
+.about-text-container {
+    border: none;
     padding: 1rem;
-    background-color: rgba(15, 23, 42, 0.03);
-    margin-top: 0.5rem;
+    background: none;
+    margin-top: 0;
     font-size: 1.125rem;
     line-height: 1.7;
+    color: white;
 }
 
 .about-text strong {
@@ -366,7 +365,7 @@ section h2 {
 
 .about-text em {
     font-style: italic;
-    color: var(--color-muted, #6b7280);
+    color: #cbd5e1;
 }
 
 #about img {
