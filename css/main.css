@@ -176,7 +176,7 @@ section h2 {
 }
 
 .about-section {
-    padding: 2rem 1rem;
+    padding: 2rem;
     background-color: var(--color-bg, #f9fafb);
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
@@ -205,6 +205,8 @@ section h2 {
     padding: 1rem;
     background-color: rgba(15, 23, 42, 0.03);
     margin-top: 0.5rem;
+    font-size: 1.125rem;
+    line-height: 1.7;
 }
 
 .about-text strong {
