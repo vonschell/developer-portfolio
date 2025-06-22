@@ -537,13 +537,36 @@ footer {
 }
 
 /* 10. Responsive Media Queries */
-@media (min-width: 600px) and (max-width: 900px) {
+@media (min-width: 601px) and (max-width: 900px) {
+    /* Header layout for tablet */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+    }
 
-    /* header navigation: horizontal and spaced */
+    header h1 {
+        margin: 0;
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    /* Logo alignment */
+    .logo {
+        text-align: left
+    }
+
+    /* Navigation alignment */
     nav ul {
-        flex-direction: row;
-        justify-content: center;
+        display: flex;
         gap: 1.5rem;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        flex-direction: row;
     }
 
     /* Hero section: smaller image and text */
