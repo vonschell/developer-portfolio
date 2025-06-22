@@ -166,17 +166,6 @@ nav a:hover {
 }
 
 /* 4. Projects */
-
-.projects-heading {
-    font-family: 'Baloo 2', cursive; /* or any bubble-style font you like */
-    text-transform: uppercase;
-    font-size: 2.5rem;
-    color: var(--color-navy);
-    text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    margin-bottom: 2rem;
-}
-
 .project-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /*two equal columns */
@@ -316,29 +305,17 @@ nav a:hover {
 }
 
 /* 5. Sections */
-section h2 {
-    border-bottom: 2px solid var(--color-light-gray);
-    padding-bottom: 0.5rem;
-    margin-bottom: 1.5rem;
-    color: var(--color-slate);
-    font-size: 2rem;
+.section-heading {
+    font-family: 'Baloo 2', cursive; /* or any bubble-style font you like */
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: var(--color-navy);
     text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
 }
 
 /* 6. About Me */
- 
-#about h2 {
-  font-size: 2.5rem; /* ⬆ Bigger */
-  background-color: white; /* ✅ White background */
-  color: var(--color-navy, #0f172a); /* ✅ Navy text */
-  display: inline-block;
-  padding: 0.5rem 1.25rem;
-  border-radius: 8px;
-  margin: 0 auto 2rem auto;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  text-align: center;
-}
-
 .about-section {
     padding: 2rem;
     background-color: var(--color-navy);
