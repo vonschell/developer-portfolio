@@ -166,8 +166,42 @@ nav a:hover {
 section h2 {
     border-bottom: 2px solid var(--color-light-gray);
     padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     color: var(--color-slate);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.about-section {
+    padding: 2rem 1rem;
+    background-color: var(--color-bg, #f9fafb);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.about-content img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+.about-text strong {
+    color: var(--color-accent, #0d9488);
+    font-weight: bold;
+}
+
+.about-text em {
+    font-style: italic;
+    color: var(--color-muted, #6b7280);
 }
 
 #about img {
@@ -175,10 +209,6 @@ section h2 {
     max-width: 200px;
     margin: 0 1rem 1rem 0;
     border-radius: 8px;
-}
-
-#about p {
-    color: var(--color-text);
 }
 
 /* 5. Skills */
