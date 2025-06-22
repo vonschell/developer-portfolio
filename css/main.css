@@ -165,7 +165,7 @@ nav a:hover {
     font-size: 1.2rem;
 }
 
-/* 7. Projects */
+/* 4. Projects */
 
 .projects-heading {
     font-family: 'Baloo 2', cursive; /* or any bubble-style font you like */
@@ -315,7 +315,7 @@ nav a:hover {
     color: var(--color-accent-hover, #0056b3);
 }
 
-/* 4. Sections */
+/* 5. Sections */
 section h2 {
     border-bottom: 2px solid var(--color-light-gray);
     padding-bottom: 0.5rem;
@@ -323,6 +323,19 @@ section h2 {
     color: var(--color-slate);
     font-size: 2rem;
     text-align: center;
+}
+
+/* 6. About Me */
+ 
+#about h2 {
+  font-size: 2.5rem; /* ⬆ Bigger */
+  background-color: white; /* ✅ White background */
+  color: var(--color-navy, #0f172a); /* ✅ Navy text */
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 .about-section {
@@ -375,7 +388,7 @@ section h2 {
     border-radius: 8px;
 }
 
-/* 5. Skills */
+/* 7. Skills */
 .skills-grid {
     display: flex;
     flex-wrap: wrap;
@@ -412,7 +425,7 @@ section h2 {
     color: var(--color-text, #333);
   }
   
-/* 6. Scroll to top button styles */
+/* 8. Scroll to top button styles */
 #scrollToTop {
     position: fixed;
     bottom: 20px;
@@ -434,7 +447,7 @@ section h2 {
     transform: translateY(-2px);
 }
 
-/* 8. Contact */
+/* 9. Contact */
 .contact-container {
     background: linear-gradient(135deg, var(--color-navy), #1a2c40);
     color: var(--color-white);
@@ -522,7 +535,7 @@ section h2 {
     padding-right: 1rem;
 }
 
-/* 9. Footer */
+/* 10. Footer */
 footer {
     text-align: center;
     font-size: 0.875rem;
