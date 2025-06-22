@@ -192,9 +192,19 @@ section h2 {
 .about-content img {
     width: 200px;
     height: auto;
-    border-radius: 10px;
+    border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     object-fit: cover;
+    border: 3px solid var(--color-navy, #0f172a);
+}
+
+/* Paragraph border box */
+.bordered-text {
+    border: 2px solid var(--color-navy, #0f172a);
+    border-radius: 12px;
+    padding: 1rem;
+    background-color: rgba(15, 23, 42, 0.03);
+    margin-top: 0.5rem;
 }
 
 .about-text strong {
