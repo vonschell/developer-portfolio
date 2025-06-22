@@ -537,49 +537,100 @@ footer {
 }
 
 /* 10. Responsive Media Queries */
-@media (max-width: 600px) {
-    header {
-        text-align: center;
-    }
+@media (min-width: 600px) and (max-width: 900px) {
 
-    nav {
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-        padding: 1rem 0; 
-    }
-
-    nav h1 {
-        margin: 0;
-        font-size: 1.8rem;
-        color: var(--color-white);
-        text-align: center;
-    }
-
+    /* header navigation: horizontal and spaced */
     nav ul {
-        width: auto;
         flex-direction: row;
         justify-content: center;
+        gap: 1.5rem;
+    }
+
+    /* Hero section: smaller image and text */
+    #hero {
+        padding: 3rem 1.5rem;
+        max-width: 95%;
+    }
+
+    #hero img {
+        width: 200px;
+    }
+
+    #hero p {
+        font-size: 1.1rem;
+    }
+
+    #hero h2.glow-highlight {
+        font-size: 1.5rem;
+    }
+
+    /* Projects grid: 1 coloumn or 2 smaller columns */
+    .project-grid {
+        grid-template-columns: repeat(1, 1fr);
         gap: 1rem;
-        margin-top: 0;
     }
 
-    nav li {
-        width: auto;
+    /* About section:; side-by-side layout */
+    .about-section {
+        padding: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        text-align: left;
     }
 
-    nav a {
-        display: inline-block;
-        padding: 0.5rem 1rem;
+    .about-section img {
+        width: 150px;
+        flex-shrink: 0;
     }
 
-    #about img {
-        float: none;
-        margin: 0 auto 1rem auto;
-        display: block;
+    .about-text-container {
+        max-width: 60%;
+        color: var(--color-white);
+        font-size: 1rem;
+        line-height: 1.5;
     }
 
-    #skills ul {
-        flex-direction: column;
+    /* Skills grid: 3 per row */
+    .skills-grid {
+        justify-content: center;
+        gap: 1rem;
     }
+
+    .skill-item {
+        width: 30%
+    }
+
+    .skill-item img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .skill-item p {
+        font-size: 0.9rem;
+    }
+
+      /* Contact container: center content */
+  .contact-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .contact-list {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .contact-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Scroll to top button smaller */
+  #scrollToTop {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+  }
 }
