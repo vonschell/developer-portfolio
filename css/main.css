@@ -430,7 +430,7 @@ nav a:hover {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     padding: 2rem 1rem;
-    margin-top: 3rem auto 0 auto;
+    margin: 3rem auto 0 auto;
     width: 90%;
     box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.2);
     position: relative;
@@ -479,18 +479,12 @@ nav a:hover {
 
 .contact-list li {
     background-color: rgba(255, 255, 255, 0.05);
-    padding: 1rem 1.2rem;
+    padding: 0.8rem 1rem;
     border-radius: 12px;
     display: flex;
     align-items: center;
     gap: 0.8rem;
     transition: all 0.3s ease;
-}
-
-.contact-list i {
-    font-size: 1.5rem;
-    color: var(--color-accent);
-    min-width: 24px;
 }
 
 .contact-list a {
@@ -501,6 +495,13 @@ nav a:hover {
 
 .contact-list a:hover {
     text-decoration: underline;
+}
+
+.contact-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 0.5rem;
 }
 
 .mailbox-emoji {
