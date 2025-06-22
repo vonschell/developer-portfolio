@@ -227,23 +227,40 @@ section h2 {
 }
 
 /* 5. Skills */
-#skills ul {
+.skills-grid {
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-    gap: 0.75rem;
-}
-
-#skills li {
-    background: var(--color-steel);
-    color: var(--color-white);
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
+    gap: 2rem;
+    justify-content: center;
+    padding-top: 1rem;
+  }
+  
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    text-align: center;
+  }
+  
+  .skill-item img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-item img:hover {
+    transform: scale(1.1);
+  }
+  
+  .skill-item p {
     font-weight: bold;
-    font-size: 0.95rem;
-}
-
+    font-size: 1rem;
+    color: var(--color-text, #333);
+  }
+  
 /* 6. Scroll to top button styles */
 #scrollToTop {
     position: fixed;
