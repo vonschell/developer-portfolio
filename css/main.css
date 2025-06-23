@@ -602,7 +602,8 @@ footer {
 
     /* Projects grid: 1 coloumn or 2 smaller columns */
     .project-grid {
-        grid-template-columns: repeat(1, 1fr);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
     }
 
