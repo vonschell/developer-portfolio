@@ -682,7 +682,8 @@ footer {
 
     .about-section img {
         float: left;
-        width: 180px;
+        height: 250px;
+        width: auto;
         margin-right: 1.5rem;
         margin-top: 1rem;
         border-radius: 12px;
