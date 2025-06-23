@@ -609,7 +609,6 @@ footer {
 
     /* About section:; side-by-side layout */
     .about-section {
-        padding: 1.5rem;
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
@@ -620,13 +619,16 @@ footer {
     .about-section img {
         width: 150px;
         flex-shrink: 0;
+        order: 1;
     }
 
     .about-text-container {
-        max-width: 60%;
+        flex: 1 1 0;
+        max-width: calc(100% - 150px);
         color: var(--color-white);
-        font-size: 1rem;
-        line-height: 1.5;
+        font-size: 1.2rem;
+        line-height: 1.6;
+        order: 2;
     }
 
     /* Skills grid: 3 per row */
