@@ -854,6 +854,7 @@ footer {
 
     .about-text-container p {
         margin-bottom: 1rem;
+        text-align: left;
     }
   
     .about-section img {
