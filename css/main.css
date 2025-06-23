@@ -690,6 +690,9 @@ footer {
     #hero {
       padding: 2rem 4rem;
       gap: 3rem;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
     }
   
     #hero h2.glow-highlight {
@@ -701,7 +704,8 @@ footer {
     }
   
     #hero img {
-      width: 400px;
+      width: 100%;
+      height: auto;
     }
   
     /* Projects grid: 2 or 3 columns */
