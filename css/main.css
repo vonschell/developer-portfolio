@@ -693,6 +693,8 @@ footer {
       align-items: center;
       text-align: center;
       gap: 2rem;
+      max-width: 85%;
+      margin: 0 auto;
     }
   
     #hero h2.glow-highlight {
