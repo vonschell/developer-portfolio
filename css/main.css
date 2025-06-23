@@ -609,25 +609,24 @@ footer {
 
     /* About section:; side-by-side layout */
     .about-section {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem;
-        justify-content: flex-start;
         text-align: left;
-    }
-
-    .about-section img {
-        width: 150px;
-        flex-shrink: 0;
-        order: 1;
-    }
-
-    .about-text-container {
-        flex: 1 1 100%;
         color: var(--color-white);
         font-size: 1.2rem;
         line-height: 1.6;
-        order: 2;
+    }
+
+    .about-section img {
+        float: left;
+        width: 150px;
+        margin-right: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .about-text-container {
+        color: var(--color-white);
+        font-size: 1.2rem;
+        line-height: 1.6;
+        overflow: hidden;
     }
 
     /* Skills grid: 3 per row */
