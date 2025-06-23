@@ -628,6 +628,12 @@ footer {
         gap: 1rem;
     }
 
+    .project-grid .project h3 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: var(--color-slate);
+    }
+
     /* About section:; side-by-side layout */
     .about-content {
         display: flow-root;
