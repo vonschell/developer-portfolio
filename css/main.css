@@ -121,7 +121,7 @@ nav a:hover {
     width: 180px;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 1rem auto;
     border-radius: 8px;
     border: 4px solid #fff;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
@@ -130,11 +130,12 @@ nav a:hover {
 
 #hero p {
     font-size: 2rem; 
+    margin: 0 0 1rem 0;
 }
 
 #hero h2 {
     font-size: 2rem;
-    margin: 0;
+    margin: 0 0 1rem 0;
     color: var(--color-white);
 }
 
@@ -161,11 +162,6 @@ nav a:hover {
     padding: 0.15rem 0.5rem;
     border-radius: 8px;
     font-size: 0.9rem;
-}
-
-#hero p {
-    font-size: 1.2rem;
-    margin: 0;
 }
 
 /* 4. Projects */
