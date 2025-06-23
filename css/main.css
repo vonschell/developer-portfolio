@@ -634,6 +634,10 @@ footer {
         color: var(--color-slate);
     }
 
+    .project-grid .project p {
+        font-size: 1.1rem;
+    }
+
     .project-grid .project-title.title-box-dark {
         color: white;
     }
