@@ -671,3 +671,97 @@ footer {
     font-size: 0.85rem;
   }
 }
+
+@media (min-width: 901px) {
+    /* Header layout for desktop */
+    header {
+      padding: 2rem 4rem;
+    }
+  
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    nav ul {
+      gap: 2rem;
+    }
+  
+    /* Hero section */
+    #hero {
+      padding: 5rem 4rem;
+      gap: 3rem;
+    }
+  
+    #hero h2.glow-highlight {
+      font-size: 4.5rem;
+    }
+  
+    .hero-text p {
+      font-size: 3rem;
+    }
+  
+    #hero img {
+      width: 400px;
+    }
+  
+    /* Projects grid: 2 or 3 columns */
+    .project-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
+  
+    /* About section */
+    .about-section {
+      font-size: 1.4rem;
+      line-height: 1.7;
+      padding: 2rem 4rem;
+    }
+  
+    .about-section img {
+      width: 180px;
+      margin-right: 2rem;
+    }
+  
+    /* Skills section */
+    .skills-grid {
+      justify-content: center;
+      gap: 2rem;
+    }
+  
+    .skill-item {
+      width: 25%;
+    }
+  
+    .skill-item img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .skill-item p {
+      font-size: 1rem;
+    }
+  
+    /* Contact section */
+    .contact-content {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 2rem 4rem;
+    }
+  
+    .contact-list {
+      gap: 3rem;
+    }
+  
+    .contact-icon {
+      width: 50px;
+      height: 50px;
+    }
+  
+    /* Scroll to top button */
+    #scrollToTop {
+      padding: 0.6rem 1rem;
+      font-size: 1rem;
+    }
+  }
+  
