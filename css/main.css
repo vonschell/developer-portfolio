@@ -721,6 +721,10 @@ footer {
       width: 180px;
       margin-right: 2rem;
     }
+
+    .about-text-container {
+        color: var(--color-white)
+    }
   
     /* Skills section */
     .skills-grid {
