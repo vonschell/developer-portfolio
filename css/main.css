@@ -596,8 +596,8 @@ footer {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem 4rem;
-        max-width: 95%;
+        padding: 1rem 0.5rem;
+        max-width: 100%;
         gap: 2rem;
     }
 
@@ -607,7 +607,7 @@ footer {
     }
 
     .hero-container {
-        max-width: 960px;
+        max-width: 1200px;
         margin: 0 auto;
         padding: 2rem;
     }
