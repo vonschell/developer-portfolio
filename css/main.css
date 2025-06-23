@@ -634,6 +634,10 @@ footer {
         color: var(--color-slate);
     }
 
+    .project-grid .project-title.title-box-dark {
+        color: white;
+    }
+
     /* About section:; side-by-side layout */
     .about-content {
         display: flow-root;
