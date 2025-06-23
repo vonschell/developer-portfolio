@@ -837,6 +837,7 @@ footer {
 
     .about-content {
         display: block;
+        overflow: hidden;
     }
 
     .about-content img {
@@ -848,7 +849,7 @@ footer {
     }
 
     .about-text-container {
-        overflow: hidden;
+        overflow: visible;
     }
 
     .about-text-container p {
