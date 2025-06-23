@@ -831,6 +831,28 @@ footer {
       font-size: 1.4rem;
       line-height: 1.7;
       padding: 2rem 4rem;
+      color: var(--color-white);
+      overflow: hidden;
+    }
+
+    .about-content {
+        display: block;
+    }
+
+    .about-content img {
+        float: left;
+        width: 180px;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+        border-radius: 12px;
+    }
+
+    .about-text-container {
+        overflow: hidden;
+    }
+
+    .about-text-container p {
+        margin-bottom: 1rem;
     }
   
     .about-section img {
