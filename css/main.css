@@ -105,8 +105,8 @@ nav a:hover {
 /* 3. Hero Section */
 #hero {
     text-align: center;
-    padding: 2rem 4rem;
-    background-color: var(--color-navy);
+    padding: 2rem 1rem;
+    background-color: white;
     color: var(--color-white);
     max-width: 960px;
     margin: 0 auto;
@@ -119,6 +119,11 @@ nav a:hover {
 }
 
 .hero-container {
+    background-color: var(--color-navy);
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
