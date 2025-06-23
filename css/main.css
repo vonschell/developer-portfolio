@@ -629,6 +629,12 @@ footer {
     }
 
     /* About section:; side-by-side layout */
+    .about-content {
+        display: flow-root;
+        text-align: left;
+        flex-direction: initial;
+        align-items: initial;
+    }
     .about-section {
         text-align: left;
         color: var(--color-white);
@@ -639,7 +645,7 @@ footer {
 
     .about-section img {
         float: left;
-        width: 150px;
+        width: 180px;
         margin-right: 1.5rem;
         margin-top: 1rem;
         border-radius: 12px;
