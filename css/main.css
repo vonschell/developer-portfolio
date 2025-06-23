@@ -606,6 +606,10 @@ footer {
         margin-bottom: 1rem;
     }
 
+    .hero-container {
+        max-width: 1000px;
+    }
+
     .hero-text {
         flex: 1;
     }
