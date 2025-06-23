@@ -797,28 +797,52 @@ footer {
   
     /* Hero section */
     #hero {
-      padding: 1rem 1.5rem 2rem 1.5rem;
+      padding: 2rem 3rem;
       flex-direction: row;
-      align-items: flex-start;
-      text-align: center;
-      gap: 2rem;
-      max-width: 950px;
+      align-items: center;
+      text-align: left;
+      gap: 3rem;
+      max-width: 1200px;
       margin: 0 auto;
       display: flex;
+      justify-content: space-between;
+    }
 
+    .hero-container {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        gap: 3rem;
+        width: 100px;
+        padding: 2rem 0;
+    }
+
+    .hero-text {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 2rem;
     }
   
     #hero h2.glow-highlight {
-      font-size: 3.5rem;
+      font-size: 4rem;
+      margin-bottom: 2rem;
     }
   
     .hero-text p {
-      font-size: 3rem;
+      font-size: 3.2rem;
+      line-height: 1.6;
+      padding: 0 1rem;
     }
   
     #hero img {
-      width: 250px;
-      height: auto;
+      width: 350px;
+      height: 420px;
+      object-fit: cover;
+      border-radius: 12px;
+      flex-shrink: 0;
     }
   
     /* Projects grid: 2 or 3 columns */
