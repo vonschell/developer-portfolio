@@ -644,6 +644,8 @@ footer {
         margin-top: 1rem;
         border-radius: 12px;
         max-width: 100%;
+        display: block;
+        margin-left: 0;
     }
 
     .about-text-container {
