@@ -700,6 +700,13 @@ footer {
     }
 
       /* Contact container: center content */
+
+  #contact {
+    background-color: var(--color-navy);
+    color: var(--color-white);
+    padding: 2rem 1.5rem;
+  }
+
   .contact-content {
     flex-direction: column;
     align-items: center;
@@ -708,11 +715,9 @@ footer {
 
   .contact-container {
     max-width: 900px;
-    padding: 2rem 1.5rem;
-    margin: 2rem auto;
+    margin: 0 auto;
     box-sizing: border-box;
     background-color: var(--color-navy);
-    border-radius: 12px;
   }
   
   .contact-list {
@@ -727,6 +732,14 @@ footer {
   .contact-icon {
     width: 40px;
     height: 40px;
+  }
+
+  /* Footer section styling */
+  footer {
+    background-color: var(--color-navy);
+    color: var(--color-white);
+    text-align: center;
+    padding: 1.5rem 1rem;
   }
   
   /* Scroll to top button smaller */
