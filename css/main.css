@@ -792,13 +792,12 @@ footer {
       display: flex;
       text-align: left;
       flex-wrap: nowrap;
-      outline: 2px dashed red; /*visual debug */
     }
 
     .hero-text {
         flex: 1;
         order: 1;
-        outline: 2px dashed blue; 
+        padding: 0 1.5rem;
     }
   
     #hero h2.glow-highlight {
@@ -818,7 +817,6 @@ footer {
       flex-shrink: 0;
       order: 2;
       border-radius: 12px;
-      outline: 2px dashed green;
     }
   
     /* Projects grid: 2 or 3 columns */
