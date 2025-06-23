@@ -707,11 +707,12 @@ footer {
   }
 
   .contact-container {
-    max-width: 100%;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    margin: 0 auto;
-    box-sizing: border-box
+    max-width: 900px;
+    padding: 2rem 1.5rem;
+    margin: 2rem auto;
+    box-sizing: border-box;
+    background-color: var(--color-navy);
+    border-radius: 12px;
   }
   
   .contact-list {
