@@ -339,6 +339,10 @@ nav a:hover {
     line-height: 1.7;
     color: white;
 }
+.about-text p {
+    color: white;
+}
+
 
 .about-text strong {
     color: var(--color-accent, #0d9488);
