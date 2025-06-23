@@ -571,20 +571,34 @@ footer {
 
     /* Hero section: smaller image and text */
     #hero {
-        padding: 3rem 1.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3rem 2rem;
         max-width: 95%;
+        gap: 2rem;
+    }
+
+    .hero-text {
+        flex: 1;
+        font-size: 1.2rem;
+    }
+
+    .hero-text h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero-text p {
+        font-size: 1.2rem;
+        line-height: 1.6;
     }
 
     #hero img {
-        width: 200px;
-    }
-
-    #hero p {
-        font-size: 1.1rem;
-    }
-
-    #hero h2.glow-highlight {
-        font-size: 1.5rem;
+        width: 220px;
+        max-width: 100%;
+        flex-shrink: 0;
     }
 
     /* Projects grid: 1 coloumn or 2 smaller columns */
