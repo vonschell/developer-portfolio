@@ -325,7 +325,7 @@ nav a:hover {
     color: var(--color-navy);
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 /* 6. About Me */
