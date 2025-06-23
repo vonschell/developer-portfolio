@@ -596,7 +596,7 @@ footer {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem 0.5rem;
+        padding: 1rem 1rem;
         max-width: 100%;
         gap: 2rem;
     }
@@ -709,6 +709,10 @@ footer {
   .contact-list {
     display: flex;
     gap: 2rem;
+  }
+
+  #contact {
+    padding: 1rem 1rem;
   }
   
   .contact-icon {
