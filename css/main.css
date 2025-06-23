@@ -564,12 +564,12 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem 2rem;
+        padding: 2rem 3rem;
     }
 
     header h1 {
         margin: 0;
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         text-align: left;
     }
 
@@ -581,7 +581,7 @@ footer {
     /* Navigation alignment */
     nav ul {
         display: flex;
-        gap: 1.5rem;
+        gap: 1.75rem;
         justify-content: flex-end;
         align-items: center;
         padding: 0;
@@ -590,13 +590,17 @@ footer {
         flex-direction: row;
     }
 
+    nav ul li a {
+        font-size: 1.8rem;
+    }
+
     /* Hero section: smaller image and text */
     #hero {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 3rem 2rem;
+        padding: 1rem 2rem;
         max-width: 95%;
         gap: 2rem;
     }
