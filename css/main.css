@@ -769,6 +769,24 @@ footer {
 
 @media (min-width: 901px) {
     /* Header layout for desktop */
+    .page-hero {
+        background-color: navy;
+        color: white;
+    }
+
+    .page-hero h1 {
+        color: white;
+    }
+
+    .page-hero nav a {
+        color: white;
+        text-decoration: none;
+      }
+      
+      .page-hero nav a:hover {
+        text-decoration: underline;
+      }
+      
     header {
       padding: 2rem 4rem;
     }
