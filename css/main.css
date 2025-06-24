@@ -784,19 +784,25 @@ footer {
     /* Hero section */
     #hero {
       padding: 2rem 1.5rem;
-      flex-direction: row;
-      align-items: flex-start;
-      gap: 2rem;
-      max-width: 950px;
+      max-width: 100%;
       margin: 0 auto;
       display: flex;
       text-align: left;
-      flex-wrap: nowrap;
+      justify-content: center;
     }
+
+    .hero-container {
+        display: flex;
+        flex-direction: row-reverse; /* Keeps image on right */
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        max-width: 1200px;
+        padding: 2rem;
+      }      
 
     .hero-text {
         flex: 1;
-        order: 1;
         padding: 0 1.5rem;
     }
   
@@ -812,10 +818,10 @@ footer {
     }
   
     #hero img {
-      width: 220px;
-      height: auto;
+      width: 300px;
+      height: 380px;
       flex-shrink: 0;
-      order: 2;
+      object-fit:cover;
       border-radius: 12px;
     }
   
