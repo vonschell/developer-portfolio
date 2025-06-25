@@ -829,6 +829,10 @@ footer {
       text-align: center;
       margin: 0;
     }
+
+    .role-highlight {
+        font-size: 1.5rem; 
+    }
   
     #hero img {
       width: 300px;
