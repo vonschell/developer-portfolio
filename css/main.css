@@ -774,7 +774,7 @@ footer {
     }
   
     header h1 {
-      font-size: 2rem;
+      font-size: 3rem;
     }
 
     nav a {
@@ -782,9 +782,8 @@ footer {
     }
   
     nav ul {
-      gap: 3rem;
+      gap: 4rem;
       display: flex;
-      gap: 3rem;
       list-style: none;
       padding: 0;
       margin: 0;
