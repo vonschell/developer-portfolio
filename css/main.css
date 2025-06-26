@@ -930,6 +930,9 @@ footer {
   
     .contact-list {
       gap: 3rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
     }
   
     .contact-icon {
