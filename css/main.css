@@ -925,7 +925,10 @@ footer {
       flex-direction: row;
       justify-content: space-between;
       align-items: flex-start;
-      padding: 2rem 4rem;
+      padding: 0rem 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;;
     }
   
     .contact-list {
@@ -944,6 +947,12 @@ footer {
     .contact-icon {
       width: 64px;
       height: 64px;
+    }
+
+    .contact-container {
+        width: 100%;
+        background-color: var(--color-navy);
+        padding: 4rem 0;
     }
   
     /* Scroll to top button */
