@@ -754,8 +754,7 @@ footer {
 
   /* Footer section styling */
   footer {
-    background-color: var(--color-navy);
-    color: var(--color-white);
+    color: var(--color-navy);
     text-align: center;
     padding: 1.5rem 1rem;
   }
