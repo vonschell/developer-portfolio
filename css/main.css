@@ -221,11 +221,11 @@ nav a:hover {
 }
 
 .project img {
-    border-radius: 50%; /* circular image */
+    border-radius: 50%; 
     margin-bottom: 1rem;
     width: 180px;
     height: 180px;
-    object-fit: cover; /* ensures the image covers the circle */
+    object-fit: cover; 
     border: 4px solid transparent
 }
 
@@ -285,7 +285,7 @@ nav a:hover {
     font-size: 0.95rem;
     margin-bottom: 1rem;
     line-height: 1.4;
-    flex-grow: 1; /*allows description fill available space */
+    flex-grow: 1; 
 }
 
 .project a {
@@ -456,7 +456,7 @@ nav a:hover {
     transform: scale(1.03);
 }
   
-/* 8. Scroll to top button styles */
+/* 9. Scroll to top button styles */
 #scrollToTop {
     position: fixed;
     bottom: 20px;
@@ -478,7 +478,7 @@ nav a:hover {
     transform: translateY(-2px);
 }
 
-/* 9. Contact */
+/* 10. Contact */
 .contact-container {
     background: linear-gradient(135deg, var(--color-navy), #1a2c40);
     color: var(--color-white);
@@ -569,20 +569,9 @@ nav a:hover {
     vertical-align: middle;
     margin-right: 0.5rem;
     transition: transform 0.3s;
-}
+}   
 
-/* removing the mailbox
-.mailbox-emoji {
-    font-size: 100px;
-    opacity: 1;
-    flex: 1;
-    text-align: center;
-    padding-top: 2rem;
-    flex-basis: 100%
-}
-*/    
-
-/* 10. Footer */
+/* 11. Footer */
 footer {
     text-align: center;
     font-size: 0.875rem;
@@ -591,7 +580,7 @@ footer {
     margin-top: 2rem;
 }
 
-/* 10. Responsive Media Queries */
+/* 12. Responsive Media Queries */
 @media (min-width: 601px) and (max-width: 900px) {
     /* Header layout for tablet */
     header {
@@ -839,7 +828,7 @@ footer {
 
     .hero-container {
         display: flex;
-        flex-direction: row-reverse; /* Keeps image on right */
+        flex-direction: row-reverse; 
         align-items: center;
         justify-content: space-between;
         gap: 2rem;
