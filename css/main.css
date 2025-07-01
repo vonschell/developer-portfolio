@@ -406,6 +406,7 @@ nav a:hover {
     gap: 1.5rem;
     justify-content: center;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     flex-direction: column;
 }
 
