@@ -441,18 +441,19 @@ nav a:hover {
 }
 
 .text-skills-grid li {
-    background-color: #f3f4f6;
+    background-color: var(--color-navy);
     padding: 0.75rem 1rem;
     border-radius: 8px;
     font-weight: 600;
     text-align: center;
-    color: #333;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    transition: background-color 0.2s ease-in-out;
+    color: var(--color-white);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
 .text-skills-grid li:hover {
-    background-color: #e0e7ff;
+    background-color: #14324f;
+    transform: scale(1.03);
 }
   
 /* 8. Scroll to top button styles */
