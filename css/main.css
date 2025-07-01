@@ -17,7 +17,7 @@
 /* Enable smooth scrolling for browsers that support it */
 @media (prefers-reduced-motion: no-preference) {
     html {
-        scroll-behavior: smooth;  
+        scroll-behavior: smooth;
     }
 }
 
@@ -150,7 +150,7 @@ nav a:hover {
 }
 
 #hero p {
-    font-size: 1.125rem; 
+    font-size: 1.125rem;
     margin: 0 0 1rem 0;
 }
 
@@ -170,6 +170,7 @@ nav a:hover {
     0% {
         text-shadow: 0 0 5px #ffcc00, 0 0 10px #ffcc00;
     }
+
     100% {
         text-shadow: 0 0 15px #ff9900, 0 0 20px #ff6600;
     }
@@ -188,21 +189,25 @@ nav a:hover {
 /* 4. Projects */
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /*two equal columns */
+    grid-template-columns: repeat(2, 1fr);
+    /*two equal columns */
     gap: 1.5rem;
     margin-top: 1rem;
 }
+
 .project {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     background-color: var(--color-navy);
     padding: 1.5rem;
-    border-radius: 12px; /* rounded corners */
+    border-radius: 12px;
+    /* rounded corners */
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    min-height: 400px; /* set minimum height to equalize card heights */
+    min-height: 400px;
+    /* set minimum height to equalize card heights */
     border: 4px solid transparent;
 }
 
@@ -221,11 +226,11 @@ nav a:hover {
 }
 
 .project img {
-    border-radius: 50%; 
+    border-radius: 50%;
     margin-bottom: 1rem;
     width: 180px;
     height: 180px;
-    object-fit: cover; 
+    object-fit: cover;
     border: 4px solid transparent
 }
 
@@ -285,7 +290,7 @@ nav a:hover {
     font-size: 0.95rem;
     margin-bottom: 1rem;
     line-height: 1.4;
-    flex-grow: 1; 
+    flex-grow: 1;
 }
 
 .project a {
@@ -326,7 +331,7 @@ nav a:hover {
 
 /* 5. Sections */
 .section-heading {
-    font-family: 'Baloo 2', cursive; 
+    font-family: 'Baloo 2', cursive;
     text-transform: uppercase;
     font-size: 2.5rem;
     color: var(--color-navy);
@@ -399,17 +404,17 @@ nav a:hover {
     gap: 2rem;
     justify-content: center;
     padding-top: 1rem;
-  }
-  
-  .skill-item {
+}
+
+.skill-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 120px;
     text-align: center;
-  }
-  
-  .skill-item img {
+}
+
+.skill-item img {
     width: 96px;
     height: 96px;
     object-fit: contain;
@@ -417,17 +422,17 @@ nav a:hover {
     transition: transform 0.2s ease-in-out;
     border-radius: 12px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .skill-item img:hover {
+}
+
+.skill-item img:hover {
     transform: scale(1.1);
-  }
-  
-  .skill-item p {
+}
+
+.skill-item p {
     font-weight: bold;
     font-size: 1rem;
     color: var(--color-text, #333);
-  }
+}
 
 /* 8. Additional Skills Section */
 .text-skills-grid {
@@ -455,7 +460,7 @@ nav a:hover {
     background-color: #14324f;
     transform: scale(1.03);
 }
-  
+
 /* 9. Scroll to top button styles */
 #scrollToTop {
     position: fixed;
@@ -510,15 +515,15 @@ nav a:hover {
 }
 
 .contact-content {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   max-width: 300px;
-   margin: 0 auto;
-   gap: 2rem;
-   padding-top: 1rem;
-   flex-wrap: wrap;
-   position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+    gap: 2rem;
+    padding-top: 1rem;
+    flex-wrap: wrap;
+    position: relative;
 }
 
 .contact-list {
@@ -528,19 +533,27 @@ nav a:hover {
     max-width: 300px;
     display: grid;
     grid-template-areas:
-    "email linkedin"
-    "github linkedin";
+        "email linkedin"
+        "github linkedin";
     flex-direction: column;
     gap: 2rem;
-    font-size: 1.1rem;  
+    font-size: 1.1rem;
     position: relative;
     width: 100%;
     height: 100%;
 }
 
-.contact-list li:nth-child(1) { grid-area: email; }
-.contact-list li:nth-child(2) { grid-area: linkedin; }
-.contact-list li:nth-child(3) { grid-area: github; }
+.contact-list li:nth-child(1) {
+    grid-area: email;
+}
+
+.contact-list li:nth-child(2) {
+    grid-area: linkedin;
+}
+
+.contact-list li:nth-child(3) {
+    grid-area: github;
+}
 
 .contact-list li {
     background: transparent;
@@ -559,7 +572,7 @@ nav a:hover {
     font-weight: bold;
 }
 
-.contact-list a:hover  .contact-icon {
+.contact-list a:hover .contact-icon {
     transform: scale(1.1);
 }
 
@@ -569,7 +582,7 @@ nav a:hover {
     vertical-align: middle;
     margin-right: 0.5rem;
     transition: transform 0.3s;
-}   
+}
 
 /* 11. Footer */
 footer {
@@ -582,6 +595,7 @@ footer {
 
 /* 12. Responsive Media Queries */
 @media (min-width: 601px) and (max-width: 900px) {
+
     /* Header layout for tablet */
     header {
         display: flex;
@@ -695,6 +709,7 @@ footer {
         flex-direction: initial;
         align-items: initial;
     }
+
     .about-section {
         text-align: left;
         color: var(--color-white);
@@ -740,134 +755,136 @@ footer {
         font-size: 0.9rem;
     }
 
-      /* Contact container: center content */
+    /* Contact container: center content */
 
-  #contact {
-    background-color: var(--color-navy);
-    color: var(--color-white);
-    padding: 2rem 1.5rem;
-  }
+    #contact {
+        background-color: var(--color-navy);
+        color: var(--color-white);
+        padding: 2rem 1.5rem;
+    }
 
-  .contact-content {
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
+    .contact-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
 
-  .contact-container {
-    max-width: 900px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    background-color: var(--color-navy);
-  }
-  
-  .contact-list {
-    display: flex;
-    gap: 2rem;
-  }
+    .contact-container {
+        max-width: 900px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        background-color: var(--color-navy);
+    }
 
-  #contact {
-    padding: 1rem 0.5rem;
-  }
-  
-  .contact-icon {
-    width: 40px;
-    height: 40px;
-  }
+    .contact-list {
+        display: flex;
+        gap: 2rem;
+    }
 
-  /* Footer section styling */
-  footer {
-    color: var(--color-navy);
-    text-align: center;
-    padding: 1.5rem 1rem;
-  }
-  
-  /* Scroll to top button smaller */
-  #scrollToTop {
-    padding: 0.4rem 0.8rem;
-    font-size: 0.85rem;
-  }
+    #contact {
+        padding: 1rem 0.5rem;
+    }
+
+    .contact-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Footer section styling */
+    footer {
+        color: var(--color-navy);
+        text-align: center;
+        padding: 1.5rem 1rem;
+    }
+
+    /* Scroll to top button smaller */
+    #scrollToTop {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.85rem;
+    }
 }
 
 @media (min-width: 901px) {
+
     /* Header layout for desktop */
     header {
-      padding: 1rem 4rem 0.5rem 4rem;
+        padding: 1rem 4rem 0.5rem 4rem;
     }
-  
+
     header h1 {
-      font-size: 3rem;
+        font-size: 3rem;
     }
 
     nav a {
         font-size: 1.4rem;
     }
-  
+
     nav ul {
-      gap: 4rem;
-      display: flex;
-      list-style: none;
-      padding: 0;
-      margin: 0;
+        gap: 4rem;
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
     }
-  
+
     /* Hero section */
     .container {
         max-width: 1200px;
         margin: 0 auto;
         padding: 0 2rem;
     }
+
     #hero {
-      padding: 1rem 1.5rem;
-      max-width: 100%;
-      margin: 0 auto;
-      display: flex;
-      text-align: left;
-      justify-content: center;
+        padding: 1rem 1.5rem;
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        text-align: left;
+        justify-content: center;
     }
 
     .hero-container {
         display: flex;
-        flex-direction: row-reverse; 
+        flex-direction: row-reverse;
         align-items: center;
         justify-content: space-between;
         gap: 2rem;
         max-width: 1200px;
         padding: 2rem;
-      }      
+    }
 
     .hero-text {
         flex: 1;
         padding: 0 1.5rem;
     }
-  
+
     #hero h2.glow-highlight {
-      font-size: 3.5rem;
-      margin-bottom: 1rem;
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
     }
-  
+
     .hero-text p {
-      font-size: 1.8rem !important;
-      text-align: center;
-      margin: 0;
+        font-size: 1.8rem !important;
+        text-align: center;
+        margin: 0;
     }
 
     .role-highlight {
-        font-size: 1.5rem; 
+        font-size: 1.5rem;
     }
-  
+
     #hero img {
-      width: 300px;
-      height: 380px;
-      flex-shrink: 0;
-      object-fit:cover;
-      border-radius: 12px;
+        width: 300px;
+        height: 380px;
+        flex-shrink: 0;
+        object-fit: cover;
+        border-radius: 12px;
     }
-  
+
     /* Projects grid: 2 or 3 columns */
     .project-grid {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
     }
 
     .project-grid .project-title {
@@ -881,14 +898,14 @@ footer {
     .project-grid .project-links a {
         font-size: 1.2rem
     }
-  
+
     /* About section */
     .about-section {
-      font-size: 1.4rem;
-      line-height: 1.7;
-      padding: 2rem 4rem;
-      color: var(--color-white);
-      overflow: hidden;
+        font-size: 1.4rem;
+        line-height: 1.7;
+        padding: 2rem 4rem;
+        color: var(--color-white);
+        overflow: hidden;
     }
 
     .about-content {
@@ -913,62 +930,63 @@ footer {
         text-align: left;
         font-size: 1.6rem;
     }
-  
+
     .about-section img {
-      width: 180px;
-      margin-right: 2rem;
+        width: 180px;
+        margin-right: 2rem;
     }
 
     .about-text {
         color: var(--color-white)
     }
-  
+
     /* Skills section */
     .skills-grid {
-      justify-content: center;
-      gap: 2rem;
+        justify-content: center;
+        gap: 2rem;
     }
-  
+
     .skill-item {
-      width: 25%;
+        width: 25%;
     }
-  
+
     .skill-item img {
-      width: 100px;
-      height: 100px;
+        width: 100px;
+        height: 100px;
     }
-  
+
     .skill-item p {
-      font-size: 1rem;
+        font-size: 1rem;
     }
-  
+
     /* Contact section */
     .contact-content {
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: flex-start;
-      padding: 0rem 2rem;
-      max-width: 1200px;
-      margin: 0 auto;
-      display: flex;;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0rem 2rem;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        ;
     }
-  
+
     .contact-list {
-      gap: 4rem;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
+        gap: 4rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 
     .content-subtext {
-      font-size: 1.6rem;
-      text-align: center;
-      margin-bottom: 1rem;
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 1rem;
     }
-  
+
     .contact-icon {
-      width: 64px;
-      height: 64px;
+        width: 64px;
+        height: 64px;
     }
 
     .contact-container {
@@ -976,11 +994,10 @@ footer {
         background-color: var(--color-navy);
         padding: 4rem 0;
     }
-  
+
     /* Scroll to top button */
     #scrollToTop {
-      padding: 0.6rem 1rem;
-      font-size: 1rem;
+        padding: 0.6rem 1rem;
+        font-size: 1rem;
     }
-  }
-  
+}
