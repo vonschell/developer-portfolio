@@ -292,6 +292,7 @@ nav a:hover {
     margin-bottom: 1rem;
     line-height: 1.4;
     flex-grow: 1;
+    text-align: left;
 }
 
 .project a {
@@ -366,10 +367,12 @@ nav a:hover {
     font-size: 1.125rem;
     line-height: 1.7;
     color: white;
+    text-align: left;
 }
 
 .about-text p {
     color: white;
+    text-align: left;
 }
 
 .about-text p:first-of-type {
