@@ -732,12 +732,14 @@ footer {
 
     /* Skills grid: 3 per row */
     .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         justify-content: center;
         gap: 1rem;
     }
 
     .skill-item {
-        width: 30%
+        width: auto;
     }
 
     .skill-item img {
@@ -938,12 +940,14 @@ footer {
 
     /* Skills section */
     .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         justify-content: center;
         gap: 2rem;
     }
 
     .skill-item {
-        width: 25%;
+        width: auto;
     }
 
     .skill-item img {
