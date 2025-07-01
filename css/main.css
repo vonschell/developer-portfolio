@@ -127,7 +127,8 @@ nav a:hover {
 
 .hero-container {
     background-color: var(--color-navy);
-    max-width: 960px;
+    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
     padding: 2rem;
     border-radius: 12px;
@@ -136,6 +137,7 @@ nav a:hover {
     align-items: center;
     text-align: center;
     gap: 1.5rem;
+    box-sizing: border-box;
 }
 
 #hero img {
@@ -189,8 +191,7 @@ nav a:hover {
 /* 4. Projects */
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /*two equal columns */
+    grid-template-columns: 1fr;
     gap: 1.5rem;
     margin-top: 1rem;
 }
@@ -401,9 +402,10 @@ nav a:hover {
 .skills-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem;
     justify-content: center;
     padding-top: 1rem;
+    flex-direction: column;
 }
 
 .skill-item {
@@ -491,7 +493,9 @@ nav a:hover {
     border-top-right-radius: 20px;
     padding: 2rem 1rem;
     margin: 3rem auto 0 auto;
-    width: 90%;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
     box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.2);
     position: relative;
     overflow: hidden;
@@ -630,13 +634,13 @@ footer {
     /* Hero section: smaller image and text */
     #hero {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem 1rem;
+        padding: 1rem;
         max-width: 100%;
         gap: 2rem;
-        text-align: left;
+        text-align: center;
     }
 
     #hero h2.glow-highlight {
@@ -686,6 +690,10 @@ footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 0 1rem;
     }
 
     .project-grid .project h3 {
@@ -716,6 +724,7 @@ footer {
         font-size: 1.2rem;
         line-height: 1.6;
         overflow: hidden;
+        padding: 1rem;
     }
 
     .about-section img {
@@ -851,6 +860,7 @@ footer {
         gap: 2rem;
         max-width: 1200px;
         padding: 2rem;
+        flex-wrap: wrap;
     }
 
     .hero-text {
@@ -909,8 +919,9 @@ footer {
     }
 
     .about-content {
-        display: block;
+        display: flex;
         overflow: hidden;
+        flex-wrap: wrap;
     }
 
     .about-content img {
