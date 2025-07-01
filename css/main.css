@@ -400,9 +400,10 @@ nav a:hover {
 
 /* 7. Skills */
 .skills-grid {
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1.5rem;
     justify-content: center;
     padding-top: 1rem;
     flex-direction: column;
