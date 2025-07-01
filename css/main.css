@@ -152,12 +152,12 @@ nav a:hover {
 }
 
 #hero p {
-    font-size: 1.125rem;
+    font-size: 1rem;
     margin: 0 0 1rem 0;
 }
 
 #hero h2 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin: 0 0 1rem 0;
     color: var(--color-white);
 }
