@@ -406,7 +406,7 @@ nav a:hover {
     display: grid;
     flex-wrap: wrap;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 1.5rem;
+    gap: 1.51rem;
     justify-content: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
