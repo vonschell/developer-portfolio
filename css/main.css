@@ -455,7 +455,7 @@ nav a:hover {
 .text-skills-grid li {
     background-color: var(--color-navy);
     padding: 0.76rem 1rem;
-    border-radius: 8px;
+    border-radius: 8.1px;
     font-weight: 600;
     text-align: center;
     color: var(--color-white);
